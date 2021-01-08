@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: docker.io/libburda/grav
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
 
@@ -36,7 +36,7 @@ service:
 
 ingress:
   enabled: true
-  class: "" # ingressClassName
+  class: ""   # ingressClassName
   annotations: {}
   hosts:
     - host: example.com
