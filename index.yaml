@@ -3,6 +3,16 @@ entries:
   grav:
   - apiVersion: v2
     appVersion: latest
+    created: "2021-01-27T23:44:15.125164013Z"
+    description: A Helm chart for Kubernetes
+    digest: ff65e5d97a58c724dcedf9d0d78da4fd1596ded54ac281aa3b05fff7e533f1bd
+    name: grav
+    type: application
+    urls:
+    - https://github.com/liborburda/helm-charts/releases/download/grav-0.2.0/grav-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: latest
     created: "2021-01-04T21:04:02.345998799Z"
     description: A Helm chart for Kubernetes
     digest: 109a50ed9a752a81e340f50d2eabcac216fda923eb808bbffea0ab3e8a701cb8
