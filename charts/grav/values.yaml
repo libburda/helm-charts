@@ -1,8 +1,8 @@
 replicaCount: 1
 
 image:
-  repository: docker.io/libburda/grav
-  pullPolicy: IfNotPresent
+  repository: docker.io/liborburda/grav
+  pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
 
@@ -49,7 +49,7 @@ ingress:
 # Mount volume for persistent data
 persistence:
   enabled: false
-  path: "/var/lib/grav/user-data/"
+  path: "/var/www/html"
   size: "1Gi"
   annotations: {}
   accessMode: ReadWriteOnce
